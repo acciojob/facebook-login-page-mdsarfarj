@@ -1,16 +1,27 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Facebook - Log in or Sign up</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div class="container">
+        <div class="logo">
+            <img src="https://static.xx.fbcdn.net/rsrc.php/yI/r/4aAhOWlwaXf.svg" alt="Facebook Logo">
+            <h2>Connect with friends and the world around you on Facebook.</h2>
+        </div>
+        <div class="login-form">
+            <form action="login.php" method="post">
+                <input type="text" name="email" placeholder="Email or Phone Number">
+                <input type="password" name="password" placeholder="Password">
+                <button type="submit">Log In</button>
+            </form>
+            <a href="#" class="forgot-password">Forgotten account?</a>
+        </div>
+        <div class="create-account">
+            <p>Don't have an account?</p>
+            <a href="signup.html">Create New Account</a>
+        </div>
+    </div>
 </body>
-
 </html>
